@@ -22,8 +22,14 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"editor.fontSize": 16,
-				"keyboard.layout": "en-gb"
+				"editor.fontSize": 20,
+				"terminal.integrated.fontSize": 20,
+				"terminal.integrated.initialHint": false,
+				"keyboard.layout": "en-gb",
+				"git.addAICoAuthor": "off",
+				"chat.disableAIFeatures": true,
+				"workbench.settings.showAISearchToggle": false,
+				"github.copilot.enable": { "*": false }
 			},
 			"extensions": [
 				"ms-python.python"
