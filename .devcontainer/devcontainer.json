@@ -29,7 +29,11 @@
 				"git.addAICoAuthor": "off",
 				"chat.disableAIFeatures": true,
 				"workbench.settings.showAISearchToggle": false,
-				"github.copilot.enable": { "*": false }
+				"github.copilot.enable": { "*": false },
+				"files.exclude": {
+					"**/.git": true,
+					"**/.devcontainer": true
+				}
 			},
 			"extensions": [
 				"ms-python.python"
